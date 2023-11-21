@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Index</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/aos.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+	
+	<div id="wrapper">
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed pull-left flat" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="margin-left:15px;">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand hidden-xs" href="#">lSurvey</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="user.html"><i class="fa fa-user"></i> User</a></li>
+						<li class="active"><a href="team.html"><i class="fa fa-users"></i> Team</a></li>
+						<li><a href="project.html"><i class="fa fa-pencil-square-o"></i> Project</a></li>
+						<li><a href="report.html"><i class="fa fa-exclamation-circle"></i> Report</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right hidden-xs">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i> Hai, Jhon Doe <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+							<li><a href="#"><i class="fa fa-gear"></i> Setting</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div><!--/.nav-collapse -->
+
+				<ul class="nav navbar-nav navbar-right pull-right navbar-nav-sm hidden-md hidden-lg hidden-sm navbar-user">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i> Hai, Jhon Doe <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+							<li><a href="#"><i class="fa fa-gear"></i> Setting</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="clearfix"></div>
+		<div class="header-page">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-8">
+						<h1>Team</h1>
+					</div>
+					<div class="col-md-4">
+						<ol class="breadcrumbs">
+							<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+							<li class="active"><i class="fa fa-users"></i> team</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div id="page-content" class="container-fluid">
+			<a href="teamcreate.html" class="btn btn-primary flat" style="margin-top:-60px;"><i class="fa fa-plus"></i> Create New Team</a>
+			<div class="table table-responsive">
+				<table id="myTable" class="table">
+					<thead style="background-color:#389af0; color:#f0f0f0;">
+						<tr>
+							<th width="5%">Id</th>
+							<th>Team Name</th>
+							<th>Member</th>
+							<th>Manager</th>
+							<th width="13%">Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>3</td>
+							<td>Ads Team</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Member</a>
+							</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Manager</a>
+							</td>
+							<td>
+								<a href="teamedit.html" class="btn btn-default btn-sm flat"><i class="fa fa-edit"></i> Edit</a>
+								<a href="#" class="btn btn-default btn-sm flat"><i class="fa fa-trash"></i> Delete</a>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Ads Team</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Member</a>
+							</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Manager</a>
+							</td>
+							<td>
+								<a href="teamedit.html" class="btn btn-default btn-sm flat"><i class="fa fa-edit"></i> Edit</a>
+								<a href="#" class="btn btn-default btn-sm flat"><i class="fa fa-trash"></i> Delete</a>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Ads Team</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Member</a>
+							</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Manager</a>
+							</td>
+							<td>
+								<a href="teamedit.html" class="btn btn-default btn-sm flat"><i class="fa fa-edit"></i> Edit</a>
+								<a href="#" class="btn btn-default btn-sm flat"><i class="fa fa-trash"></i> Delete</a>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Ads Team</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Member</a>
+							</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Manager</a>
+							</td>
+							<td>
+								<a href="teamedit.html" class="btn btn-default btn-sm flat"><i class="fa fa-edit"></i> Edit</a>
+								<a href="#" class="btn btn-default btn-sm flat"><i class="fa fa-trash"></i> Delete</a>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Ads Team</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Member</a>
+							</td>
+							<td>
+								<a href="teamdetail.html" class="btn btn-default btn-sm flat"><i class="fa fa-list-alt"></i> (2) Manager</a>
+							</td>
+							<td>
+								<a href="teamedit.html" class="btn btn-default btn-sm flat"><i class="fa fa-edit"></i> Edit</a>
+								<a href="#" class="btn btn-default btn-sm flat"><i class="fa fa-trash"></i> Delete</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-login" style="position:relative;">
+		<div class="container text-center">
+			<p style="color:#e0e0e0;"><i class="fa fa-copyright"></i> Copyright 2017 - All right Reserved</p>
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/aos.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
+	<script>
+    	AOS.init();
+  	
+		$(document).ready(function(){
+			$('#myTable').DataTable();
+		});
+  	</script>
+</body>
+</html>

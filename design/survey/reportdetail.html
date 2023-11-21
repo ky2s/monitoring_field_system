@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Index</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/aos.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+	
+	<div id="wrapper">
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed pull-left flat" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="margin-left:15px;">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand hidden-xs" href="#">lSurvey</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="user.html"><i class="fa fa-user"></i> User</a></li>
+						<li><a href="team.html"><i class="fa fa-users"></i> Team</a></li>
+						<li><a href="project.html"><i class="fa fa-pencil-square-o"></i> Project</a></li>
+						<li><a href="report.html"><i class="fa fa-exclamation-circle"></i> Report</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right hidden-xs">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i> Hai, Jhon Doe <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+							<li><a href="#"><i class="fa fa-gear"></i> Setting</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+				</div><!--/.nav-collapse -->
+
+				<ul class="nav navbar-nav navbar-right pull-right navbar-nav-sm hidden-md hidden-lg hidden-sm navbar-user">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+							<i class="fa fa-user-circle-o" aria-hidden="true"></i> Hai, Jhon Doe <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+							<li><a href="#"><i class="fa fa-gear"></i> Setting</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#"><i class="fa fa-sign-out"></i> Logout</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="clearfix"></div>
+		<div class="header-page">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-7">
+						<h1>Report <small>-- Project Name <small>-- Form Name</small></small></h1>
+					</div>
+					<div class="col-md-5">
+						<ol class="breadcrumbs">
+							<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+							<li><a href="#"><i class="fa fa-exclamation-circle"></i> Report</a></li>
+							<li class="active"><i class="fa fa-eye"></i> Project Report</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		<div id="page-content" class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="side-header">
+						<div class="panel-group" id="accordion">
+					        <div class="panel panel-default">
+					            <div class="panel-heading flat">
+					                <h4 class="panel-title">
+					                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><b>Form Name</b> <span class="fa fa-right fa-caret-square-o-down pull-right"></span></a>
+					                </h4>
+					            </div>
+					            <div id="collapseOne" class="panel-collapse collapse in">
+					                <div class="panel-body flat">
+										<div class="head-side-header">
+											<label class="label published">LIVE</label> <br><br>
+											<label class="label drafted">Draft</label> <br><br>
+											<p><i class="fa fa-comments"></i> 6 Questions</p>
+											<p><i class="fa fa-users"></i> 182 Participans</p>
+											<span><i class="fa fa-clock-o"></i> Last Published 08 Agustus 2017</span>
+											<div class="head-side-right">
+												<ul class="nav navbar-nav">
+													<li class="dropdown">
+														<a href="#" class="btn btn-default btn-sm flat btn-action side-right" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+															<i class="fa fa-gear" aria-hidden="true"></i>
+														</a>
+														<ul class="dropdown-menu dropdown-menu-side-right">
+															<li><a href="#"><i class="fa fa-edit"></i> Switch to Draft</a></li>
+															<li><a href="#"><i class="fa fa-trash"></i> Delete Project</a></li>
+														</ul>
+													</li>
+												</ul>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+										<div class="body-side-header">
+											<form>
+												<label><small>Name :</small></label>
+												<div>	
+													<input type="text" class="form-control flat" id="basic-url" aria-describedby="basic-addon3">
+												</div>
+
+												<label><small>Description :</small></label>
+												<div>	
+													<textarea name="" id="" cols="30" rows="5" class="form-control flat">
+														
+													</textarea>
+												</div>
+												<br>
+												<div>
+													<input type="submit" class="btn btn-default published flat btn-block" value="Publish">
+												</div>
+											</form>
+										</div>
+									</div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<div class="table table-responsive">
+						<table id="myTable" class="table">
+							<thead style="background-color:#389af0; color:#f0f0f0;">
+								<tr>
+									<th width="5%">Id</th>
+									<th>Latitude</th>
+									<th>Longitude</th>
+									<th>Waktuisi</th>
+									<th>Nama</th>
+									<th>Jenis Kelamin</th>
+									<th>Kota</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>-12345</td>
+									<td>-23455</td>
+									<td>2017-08-12 06:47:21</td>
+									<td>Jhon Doe</td>
+									<td>Laki-laki</td>
+									<td>Jakarta</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>-12345</td>
+									<td>-23455</td>
+									<td>2017-08-12 06:47:21</td>
+									<td>Jhon Doe</td>
+									<td>Laki-laki</td>
+									<td>Jakarta</td>
+								</tr>
+								<tr>
+									<td>1</td>
+									<td>-12345</td>
+									<td>-23455</td>
+									<td>2017-08-12 06:47:21</td>
+									<td>Jhon Doe</td>
+									<td>Laki-laki</td>
+									<td>Jakarta</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>-12345</td>
+									<td>-23455</td>
+									<td>2017-08-12 06:47:21</td>
+									<td>Jhon Doe</td>
+									<td>Laki-laki</td>
+									<td>Jakarta</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>-12345</td>
+									<td>-23455</td>
+									<td>2017-08-12 06:47:21</td>
+									<td>Jhon Doe</td>
+									<td>Laki-laki</td>
+									<td>Jakarta</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div> <!-- /. col-md-8 -->
+
+			</div>
+		</div>
+	</div>
+	<footer class="footer-login" style="position:relative;">
+		<div class="container text-center">
+			<p style="color:#e0e0e0;"><i class="fa fa-copyright"></i> Copyright 2017 - All right Reserved</p>
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/aos.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+	<!-- <script type="text/javascript" src="assets/js/bootstrap.min.js"></script> -->
+	<script>
+		AOS.init();
+
+		$(document).ready(function(){
+			$('#myTable').DataTable();
+		});
+	</script>
+
+	<script>
+    $(document).ready(function(){
+        // Add minus icon for collapse element which is open by default
+        $(".collapse.in").each(function(){
+        	$(this).siblings(".panel-heading").find(".fa-right").addClass("fa-caret-square-o-up").removeClass("fa-caret-square-o-down");
+        });
+        
+        // Toggle plus minus icon on show hide of collapse element
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).parent().find(".fa-right").removeClass("fa-caret-square-o-down").addClass("fa-caret-square-o-up");
+        }).on('hide.bs.collapse', function(){
+        	$(this).parent().find(".fa-right").removeClass("fa-caret-square-o-up").addClass("fa-caret-square-o-down");
+        });
+    });
+	</script>
+
+</body>
+</html>
