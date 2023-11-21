@@ -3,7 +3,7 @@
 
 ## About Project
 
-Rangkuman Sistem Pemantauan Proyek:
+Aplikasi Sistem Monitoring Proyek:
 
 Sistem Pemantauan Proyek adalah platform terintegrasi yang dirancang untuk memantau, mengelola, dan melacak kemajuan suatu proyek secara efisien. Dengan fokus pada transparansi dan pengelolaan informasi real-time, sistem ini membantu tim proyek dan pemangku kepentingan untuk:
 
